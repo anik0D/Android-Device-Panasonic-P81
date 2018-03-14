@@ -37,11 +37,10 @@ This branch is for building LineageOS 14.1 Based ROMs.
   * repo sync
   * git clone https://github.com/Nougat-mt6592/Android-Device-Panasonic-P55-Novo.git -b los14 device/Panasonic/P55Novo
   * git clone https://github.com/Nougat-mt6592/Android-Vendor-Panasonic-P55-Novo.git -b master vendor/Panasonic/P55Novo
+  * cd device/Panasonic/P55Novo/patches && . apply.sh
   * source build/envsetup.sh
   * brunch P55Novo
   * Done :)
-  
-  NOTE : For other ROMs -> * apply pacthes manually from https://github.com/Nougat-mt6592 repos by cherry-picking (pick only     those committed with me)
   
 # Credits/Thanks to:-
   * GOD For Everything and Anything
