@@ -6,9 +6,9 @@ cd ../../../../
 cd system/bt
 patch -p1 < ../../$tree/bt.patch
 cd ../../
-cd vendor/codeaurora/telephony
-patch -p1 < ../../../$tree/caf_telephony.patch
-cd ../../../
+#cd vendor/codeaurora/telephony
+#patch -p1 < ../../../$tree/caf_telephony.patch
+#cd ../../../
 cd packages/apps/Dialer
 patch -p1 < ../../../$tree/Dialer.patch
 cd ../../../
