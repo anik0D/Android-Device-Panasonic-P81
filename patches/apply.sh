@@ -6,6 +6,7 @@ cd ../../../../
 cd system/bt
 patch -p1 < ../../$tree/bt.patch
 cd ../../
+# -\/ Highly Toxic
 #cd vendor/codeaurora/telephony
 #patch -p1 < ../../../$tree/caf_telephony.patch
 #cd ../../../
@@ -25,7 +26,7 @@ cd frameworks/native
 patch -p1 < ../../$tree/frameworks_native.patch
 cd ../../
 cd system/netd
-patch -p1 < ../$tree/netd.patch
+patch -p1 < ../../$tree/netd.patch
 cd ../../
 cd frameworks/opt/telephony
 patch -p1 < ../../../$tree/opt_telephony.patch
@@ -33,7 +34,7 @@ cd ../../../
 cd system/sepolicy
 patch -p1 < ../../$tree/sepolicy.patch
 cd ../../
-cd packages/services/telephony
+cd packages/services/Telephony
 patch -p1 < ../../../$tree/services_telephony.patch
 cd ../../../
 cd packages/apps/Settings
@@ -49,6 +50,6 @@ cd ../../
 cd system/vold
 patch -p1 < ../../$tree/vold.patch
 cd ../../
-cd externel/wpa_supplicant_8 # TODO: check this location
+cd external/wpa_supplicant_8
 patch -p1 < ../../$tree/wpa_sup.patch
 cd ../../
