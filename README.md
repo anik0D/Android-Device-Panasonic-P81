@@ -4,14 +4,14 @@ Panasonic P55 Novo device is a low-range smartphone from Panasonic.
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core 1.4 GHz Cortex-A7
+CPU     | Octa-core 1.7 GHz Cortex-A7
 GPU     | Mali-450 MP
 Memory  | 1GB RAM
-Shipped Android Version | 4.4.2
+Shipped Android Version | 4.2.2
 Storage | 8 GB
-Battery | 2500 mAh
-Display | 5.3" 720 x 1280 px
-Camera  | Rear camera - 13 MP,autofocus,Triple LED Flash, Front - 5 MP, LED flash
+Battery | 4000 mAh
+Display | 5.5" 720 x 1280 px
+Camera  | Rear camera - 13 MP,autofocus,Triple LED Flash, Front - 2 MP, LED flash
 
 This branch is for building LineageOS 14.1 Based ROMs.
 
