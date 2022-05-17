@@ -1,6 +1,6 @@
 #!/bin/bash
-# Currently in device/Panasonic/P55Novo/patches/ dir
-tree=device/Panasonic/P55Novo/patches
+# Currently in device/Panasonic/P81/patches/ dir
+tree=device/Panasonic/P81/patches
 cd ../../../../
 # Now in rom source dir
 cd system/bt
